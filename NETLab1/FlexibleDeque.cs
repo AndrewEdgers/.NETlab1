@@ -5,8 +5,8 @@ namespace NETLab1
     public class Node<T>
     {
         public T Value { get; set; }
-        public Node<T>? Previous { get; set; }  // Nullable
-        public Node<T>? Next { get; set; }  // Nullable
+        public Node<T>? Previous { get; set; }
+        public Node<T>? Next { get; set; }
 
         public Node(T value)
         {
@@ -16,8 +16,8 @@ namespace NETLab1
 
     public class FlexibleDeque<T> : IEnumerable<T>
     {
-        private Node<T>? _head;  // Nullable
-        private Node<T>? _tail;  // Nullable
+        private Node<T>? _head;
+        private Node<T>? _tail;
         private int _count;
 
         public event Action<T>? ItemEnqueued;
