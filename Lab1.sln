@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETLab1", "NETLab1\NETLab1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DequeDemoApp", "DequeDemoApp\DequeDemoApp.csproj", "{0DD5E243-7A7B-46AB-B27B-C5C166CBC794}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexibleTest", "FlexibleTest\FlexibleTest.csproj", "{ECB224FB-A4E7-4DE6-A2F4-4BBCF351562F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0DD5E243-7A7B-46AB-B27B-C5C166CBC794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD5E243-7A7B-46AB-B27B-C5C166CBC794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DD5E243-7A7B-46AB-B27B-C5C166CBC794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB224FB-A4E7-4DE6-A2F4-4BBCF351562F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB224FB-A4E7-4DE6-A2F4-4BBCF351562F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB224FB-A4E7-4DE6-A2F4-4BBCF351562F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB224FB-A4E7-4DE6-A2F4-4BBCF351562F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
